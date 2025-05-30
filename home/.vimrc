@@ -82,7 +82,7 @@ colorscheme codedark
 hi IncSearch ctermbg=darkcyan guibg=darkcyan ctermfg=black guifg=black
 hi LineNr ctermfg=grey ctermbg=black guifg=grey guibg=black
 
-set foldcolumn=5
+" set foldcolumn=5
 
 " vim-nerdtree-syntax-highlight
 " highlight fullname (not only icons)
