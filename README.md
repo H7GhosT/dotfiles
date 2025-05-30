@@ -72,6 +72,9 @@ eval "$(ssh-agent -s)" # In fish, probably needs `eval (ssh-agent -s), plus the 
 
 # Add your SSH private key to the ssh-agent.
 ssh-add ~/.ssh/id_ed25519
+
+# Copy the public key
+xsel --clipboard < ~/.ssh/id_ed25519.pub
 ```
 
 Add the SSH public key to your account on GitHub (in settings).
