@@ -58,6 +58,11 @@ corepack enable pnpm
 pnpm -v
 ```
 
+#### Making nvm work in fish
+
+Need to update the `~/.config/fish/...`. Turns out those files are also available in the nvm [GitHub's readme](https://github.com/nvm-sh/nvm?tab=readme-ov-file#fish)
+
+
 ### Creating SSH keys for github
 
 [Official tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
