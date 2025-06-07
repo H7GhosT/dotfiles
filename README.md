@@ -58,6 +58,8 @@ corepack enable pnpm
 pnpm -v
 ```
 
+Don't forget to run `pnpm setup` to create the global directory for pnpm global packages. The necessary env variables are in the `config.fish`.
+
 #### Making nvm work in fish
 
 Need to update the `~/.config/fish/...`. Turns out those files are also available in the nvm [GitHub's readme](https://github.com/nvm-sh/nvm?tab=readme-ov-file#fish)
