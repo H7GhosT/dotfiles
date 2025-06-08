@@ -27,6 +27,8 @@ sudo apt install fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 omf install agnoster # Probably like this
+
+omf install bass # Needed for running nvm
 ```
 
 Don't forget to install a nerd font to see all the symbols: [Nerd font downloads](https://www.nerdfonts.com/font-downloads)
