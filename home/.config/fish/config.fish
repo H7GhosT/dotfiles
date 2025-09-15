@@ -14,4 +14,9 @@ if status is-interactive
 
     set -gx PNPM_HOME $HOME/.local/share/pnpm
     set -gx PATH $PNPM_HOME $PATH
+
+    abbr --add gp git push
+    abbr --add gpp git push public
+    abbr --add sdf pnpm start
+    abbr --add gst git stash
 end
